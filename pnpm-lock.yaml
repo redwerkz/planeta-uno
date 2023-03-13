@@ -132,7 +132,7 @@ packages:
     dependencies:
       '@babel/core': 7.21.0
       '@babel/helper-annotate-as-pure': 7.18.6
-      regexpu-core: 5.3.1
+      regexpu-core: 5.3.2
     dev: true
 
   /@babel/helper-define-polyfill-provider/0.3.3_@babel+core@7.21.0:
@@ -1499,7 +1499,7 @@ packages:
       dotenv: 7.0.0
       dotenv-expand: 5.1.0
       json5: 2.2.3
-      msgpackr: 1.8.4
+      msgpackr: 1.8.5
       nullthrows: 1.1.1
       semver: 5.7.1
     dev: false
@@ -1671,7 +1671,7 @@ packages:
       '@parcel/source-map': 2.1.1
       '@parcel/utils': 2.8.3
       nullthrows: 1.1.1
-      terser: 5.16.5
+      terser: 5.16.6
     transitivePeerDependencies:
       - '@parcel/core'
 
@@ -2176,8 +2176,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001460
-      electron-to-chromium: 1.4.320
+      caniuse-lite: 1.0.30001464
+      electron-to-chromium: 1.4.328
       node-releases: 2.0.10
       update-browserslist-db: 1.0.10_browserslist@4.21.5
 
@@ -2188,8 +2188,8 @@ packages:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
 
-  /caniuse-lite/1.0.30001460:
-    resolution: {integrity: sha512-Bud7abqjvEjipUkpLs4D7gR0l8hBYBHoa+tGtKJHvT2AYzLp1z7EmVkUT4ERpVUfca8S2HGIVs883D8pUH1ZzQ==}
+  /caniuse-lite/1.0.30001464:
+    resolution: {integrity: sha512-oww27MtUmusatpRpCGSOneQk2/l5czXANDSFvsc7VuOQ86s3ANhZetpwXNf1zY/zdfP63Xvjz325DAdAoES13g==}
 
   /chalk/2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
@@ -2339,8 +2339,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /electron-to-chromium/1.4.320:
-    resolution: {integrity: sha512-h70iRscrNluMZPVICXYl5SSB+rBKo22XfuIS1ER0OQxQZpKTnFpuS6coj7wY9M/3trv7OR88rRMOlKmRvDty7Q==}
+  /electron-to-chromium/1.4.328:
+    resolution: {integrity: sha512-DE9tTy2PNmy1v55AZAO542ui+MLC2cvINMK4P2LXGsJdput/ThVG9t+QGecPuAZZSgC8XoI+Jh9M1OG9IoNSCw==}
 
   /entities/2.2.0:
     resolution: {integrity: sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==}
@@ -2596,7 +2596,7 @@ packages:
     resolution: {integrity: sha512-V5V5Xa2Hp9i2XsbDALkBTeHXnBXh/lEmk9p22zdr7jtuOIY9TGhjK6vAvTpOOx9IKU4hJkRWZxn/HsvR1ELLtA==}
     requiresBuild: true
     dependencies:
-      msgpackr: 1.8.4
+      msgpackr: 1.8.5
       node-addon-api: 4.3.0
       node-gyp-build-optional-packages: 5.0.3
       ordered-binary: 1.4.0
@@ -2648,8 +2648,8 @@ packages:
       '@msgpackr-extract/msgpackr-extract-win32-x64': 3.0.2
     optional: true
 
-  /msgpackr/1.8.4:
-    resolution: {integrity: sha512-BE3hD3PqV7jsNaV022uq0jMW+ZVc32wSYyQmwAoJUc+vPtCeyro2MOtAW61Fd9ZKNySM6y913E9fBY0mG+hKXg==}
+  /msgpackr/1.8.5:
+    resolution: {integrity: sha512-mpPs3qqTug6ahbblkThoUY2DQdNXcm4IapwOS3Vm/87vmpzLVelvp9h3It1y9l1VPpiFLV11vfOXnmeEwiIXwg==}
     optionalDependencies:
       msgpackr-extract: 3.0.2
 
@@ -2807,8 +2807,8 @@ packages:
       '@babel/runtime': 7.21.0
     dev: true
 
-  /regexpu-core/5.3.1:
-    resolution: {integrity: sha512-nCOzW2V/X15XpLsK2rlgdwrysrBq+AauCn+omItIz4R1pIcmeot5zvjdmOBRLzEH/CkC6IxMJVmxDe3QcMuNVQ==}
+  /regexpu-core/5.3.2:
+    resolution: {integrity: sha512-RAM5FlZz+Lhmo7db9L298p2vHP5ZywrVXmVXpmAD9GuL5MPH6t9ROw1iA/wfHkQ76Qe7AaPF0nGuim96/IrQMQ==}
     engines: {node: '>=4'}
     dependencies:
       '@babel/regjsgen': 0.8.0
@@ -2905,8 +2905,8 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /terser/5.16.5:
-    resolution: {integrity: sha512-qcwfg4+RZa3YvlFh0qjifnzBHjKGNbtDo9yivMqMFDy9Q6FSaQWSB/j1xKhsoUFJIqDOM3TsN6D5xbrMrFcHbg==}
+  /terser/5.16.6:
+    resolution: {integrity: sha512-IBZ+ZQIA9sMaXmRZCUMDjNH0D5AQQfdn4WUjHL0+1lF4TP1IHRJbrhb6fNaXWikrYQTSkb7SLxkeXAiy1p7mbg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
